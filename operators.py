@@ -15,3 +15,10 @@ squared = 7 ** 2
 cubed = 4 ** 3
 print(squared)
 print(cubed)
+
+# Using Operators with Strings
+
+# Python supports concatenating strings using the addition operator:
+
+hw = "Hello" + " " + "World"
+print(hw)
