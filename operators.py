@@ -18,7 +18,12 @@ print(cubed)
 
 # Using Operators with Strings
 
-# Python supports concatenating strings using the addition operator:
+# Python supports concatenating strings using the addition operator
 
 hw = "Hello" + " " + "World"
 print(hw)
+
+# Python also supports multiplying strings to form a string with a repeating sequence:
+
+lotsOfHellos = "hello" * 10
+print(lotsOfHellos)
