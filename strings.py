@@ -4,3 +4,10 @@
 
 name = "Abhi"
 print("Hello, %s!" %name)
+
+# To use two or more argument specifiers, use a tuple (parentheses)
+
+# This is to print "Abhi is 23 years old."
+name = "Abhi"
+age = 23
+print("%s is %d years old." %(name,age))
