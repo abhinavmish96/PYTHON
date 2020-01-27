@@ -17,3 +17,8 @@ print("%s is %d years old." %(name,age))
 # This prints out: A list: [1, 2, 3]
 mylist = [1,2,3]
 print("A list: %s" % mylist)
+
+# Strings are bits of text. They can be defined as anything between quotes
+
+astring1 = "Hello World!"
+astring2 = 'Hello World!'
