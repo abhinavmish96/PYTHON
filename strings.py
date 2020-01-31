@@ -38,3 +38,8 @@ print(len(astring))
 
 astring = "Hello World!"
 print(astring.index("o"))
+
+# For those of you using silly fonts, that is a lowercase L, not a number one. This counts the number of l's in the string. Therefore, it should print 3
+
+astring = "Hello World!"
+print(astring.count("l"))
