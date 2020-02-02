@@ -52,3 +52,8 @@ print(astring.count("l"))
 
 astring = "Hello world!"
 print(astring[3:7])
+
+# This prints the characters of string from 3 to 7 skipping one character. This is extended slice syntax. The general form is [start:stop:step]
+
+astring = "Hello world!"
+print(astring[3:7:2])
