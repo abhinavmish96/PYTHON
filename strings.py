@@ -57,3 +57,8 @@ print(astring[3:7])
 
 astring = "Hello world!"
 print(astring[3:7:2])
+
+# There is no function like strrev in C to reverse a string. But with the above mentioned type of slice syntax you can easily reverse a string like this
+
+astring = "Hello world!"
+print(astring[::-1])
