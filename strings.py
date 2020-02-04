@@ -62,3 +62,9 @@ print(astring[3:7:2])
 
 astring = "Hello world!"
 print(astring[::-1])
+
+# These make a new string with all letters converted to uppercase and lowercase, respectively.
+
+astring = "Hello world!"
+print(astring.startswith("Hello"))
+print(astring.endswith("asdfasdfasdf"))
