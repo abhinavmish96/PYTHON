@@ -66,5 +66,11 @@ print(astring[::-1])
 # These make a new string with all letters converted to uppercase and lowercase, respectively.
 
 astring = "Hello world!"
+print(astring.upper())
+print(astring.lower())
+
+# This is used to determine whether the string starts with something or ends with something, respectively. The first one will print True, as the string starts with "Hello". The second one will print False, as the string certainly does not end with "asdfasdfasdf"
+
+astring = "Hello world!"
 print(astring.startswith("Hello"))
 print(astring.endswith("asdfasdfasdf"))
