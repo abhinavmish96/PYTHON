@@ -74,3 +74,9 @@ print(astring.lower())
 astring = "Hello world!"
 print(astring.startswith("Hello"))
 print(astring.endswith("asdfasdfasdf"))
+
+# This splits the string into a bunch of strings grouped together in a list. Since this example splits at a space, the first item in the list will be "Hello", and the second will be "world!"
+
+astring = "Hello world!"
+afewwords = astring.split(" ")
+print(afewwords)
