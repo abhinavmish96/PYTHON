@@ -16,3 +16,11 @@ if name == "John" and age == 23:
 
 if name == "John" or name == "Rick":
     print("Your name is either John or Rick.")
+
+# The "in" operator
+
+# The "in" operator could be used to check if a specified object exists within an iterable object container, such as a list
+
+name = "John"
+if name in ["John", "Rick"]:
+    print("Your name is either John or Rick.")
