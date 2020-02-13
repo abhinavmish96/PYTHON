@@ -40,3 +40,11 @@ elif another_statement is True: # else if
 else:
     # do another thing
     pass
+
+# For example:
+
+x = 2
+if x == 2:
+    print("x equals two!")
+else:
+    print("x does not equal to two.")
