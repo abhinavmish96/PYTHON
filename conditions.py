@@ -59,3 +59,10 @@ x = [1,2,3]
 y = [1,2,3]
 print(x == y) # Prints out True
 print(x is y) # Prints out False
+
+# The "not" operator
+
+# Using "not" before a boolean expression inverts it:
+
+print(not False) # Prints out True
+print((not False) == (False)) # Prints out False
