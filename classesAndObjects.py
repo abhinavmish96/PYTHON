@@ -7,3 +7,13 @@ class MyClass:
 
     def function(self):
         print("This is a message inside the class.")
+
+# We'll explain why you have to include that "self" as a parameter a little bit later. First, to assign the above class(template) to an object you would do the following:
+
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
