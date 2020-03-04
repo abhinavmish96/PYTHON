@@ -17,3 +17,18 @@ class MyClass:
         print("This is a message inside the class.")
 
 myobjectx = MyClass()
+
+# Now the variable "myobjectx" holds an object of the class "MyClass" that contains the variable and the function defined within the class called "MyClass".
+
+# Accessing Object Variables
+# To access the variable inside of the newly created object "myobjectx" you would do the following:
+
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+myobjectx.variable
