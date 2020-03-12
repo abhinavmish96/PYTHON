@@ -61,3 +61,16 @@ myobjecty.variable = "yackity"
 # Then print out both values
 print(myobjectx.variable)
 print(myobjecty.variable)
+
+# Accessing Object Functions
+# To access a function inside of an object you use notation similar to accessing a variable:
+
+class MyClass:
+    variable = "blah"
+
+    def function(self):
+        print("This is a message inside the class.")
+
+myobjectx = MyClass()
+
+myobjectx.function()
